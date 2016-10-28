@@ -2,6 +2,12 @@ package com.orhanobut.logger;
 
 import android.util.Log;
 
+
+/**
+ * 
+ * @author suiyuchen
+ *
+ */
 class AndroidLogAdapter implements LogAdapter {
   @Override public void d(String tag, String message) {
     Log.d(tag, message);
