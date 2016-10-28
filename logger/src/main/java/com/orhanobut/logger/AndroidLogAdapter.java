@@ -6,7 +6,7 @@ import android.util.Log;
 /**
  * 
  * @author suiyuchen
- *
+ * @date 2016-10-28
  */
 class AndroidLogAdapter implements LogAdapter {
   @Override public void d(String tag, String message) {
