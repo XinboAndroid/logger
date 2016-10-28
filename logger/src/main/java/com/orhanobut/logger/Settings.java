@@ -18,9 +18,9 @@ public final class Settings {
   }
 
   public Settings methodCount(int methodCount) {
-    if (methodCount < 0) {
+    if (methodCount < 0) 
       methodCount = 0;
-    }
+    
     this.methodCount = methodCount;
     return this;
   }
